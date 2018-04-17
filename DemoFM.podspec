@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   	s.source = { :git => 'https://github.com/SalmanAhmedDev/DemoFW.git',:branch => 'DemoFM', :tag => '1.0.0' }
   	s.ios.deployment_target = '8.0'
 	s.source_files = 'DemoFM/*.h'
+	s.ios.vendored_frameworks = 'DemoFM.framework'
     end
