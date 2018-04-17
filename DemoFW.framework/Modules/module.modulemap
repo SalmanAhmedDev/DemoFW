@@ -1,0 +1,6 @@
+framework module DemoFW {
+  umbrella header "DemoFW.h"
+
+  export *
+  module * { export * }
+}
